@@ -10,12 +10,15 @@ class Config:
     MAIL_PORT = 587
     MAIL_USE_TLS = True
 
-    MAIL_USERNAME = 'aravindjr84@gmail.com'  # Replace with your Gmail
-    MAIL_PASSWORD = 'wloc yqfu vysf xprb'  # change to Gmail app password
+    MAIL_USERNAME = 'aBCD@gmail.com'  #REMOVED  BECAUSE OF PRIVACY
+
+    MAIL_PASSWORD = ''  #REMOVED  BECAUSE OF PRIVACY
 
     # Google reCAPTCHA
-    RECAPTCHA_SITE_KEY = "6LcrndMrAAAAAHwuyNQTF_xPJL7IE4hph3uCCol1"  # from Google
-    RECAPTCHA_SECRET_KEY = "6LcrndMrAAAAALS9uo5OOlaTQwJJF-bPzuJA74a5"  # from Google
+    RECAPTCHA_SITE_KEY = "9YEFHDIJSEGOJOEJSJG'OHJEPJHJOJJH"  #REMOVED  BECAUSE OF PRIVACY
+
+    RECAPTCHA_SECRET_KEY = "YURGWWIUHIFOJPOGIOE9U9892IRHENDJI89443J"  # #REMOVED  BECAUSE OF PRIVACY
+
 
     # CSRF secret
     WTF_CSRF_SECRET_KEY = os.environ.get("WTF_CSRF_SECRET_KEY") or "anothersecret"
